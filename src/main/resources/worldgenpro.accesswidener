@@ -1,0 +1,70 @@
+accessWidener v2 named
+
+# step 1
+accessible class net/minecraft/structure/pool/SinglePoolElement
+accessible field net/minecraft/structure/StructureTemplateManager templates Ljava/util/Map;
+accessible field net/minecraft/structure/PoolStructurePiece structureTemplateManager Lnet/minecraft/structure/StructureTemplateManager;
+accessible field net/minecraft/structure/StructureTemplate blockInfoLists Ljava/util/List;
+accessible field net/minecraft/structure/StructureTemplate entities Ljava/util/List;
+accessible method net/minecraft/structure/StructureTemplate spawnEntities (Lnet/minecraft/world/ServerWorldAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/BlockMirror;Lnet/minecraft/util/BlockRotation;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockBox;Z)V
+accessible method net/minecraft/structure/pool/SinglePoolElement <init> (Lcom/mojang/datafixers/util/Either;Lnet/minecraft/registry/entry/RegistryEntry;Lnet/minecraft/structure/pool/StructurePool$Projection;)V
+
+# step 2
+accessible field net/minecraft/world/gen/chunk/ChunkNoiseSampler interpolators Ljava/util/List;
+accessible field net/minecraft/world/gen/chunk/ChunkNoiseSampler$DensityInterpolator startDensityBuffer [[D
+accessible field net/minecraft/world/gen/chunk/ChunkNoiseSampler$DensityInterpolator endDensityBuffer [[D
+
+# step 3
+accessible field net/minecraft/world/gen/structure/JigsawStructure startPool Lnet/minecraft/registry/entry/RegistryEntry;
+accessible field net/minecraft/world/gen/structure/JigsawStructure startJigsawName Ljava/util/Optional;
+accessible field net/minecraft/world/gen/structure/JigsawStructure size I
+accessible field net/minecraft/world/gen/structure/JigsawStructure startHeight Lnet/minecraft/world/gen/heightprovider/HeightProvider;
+accessible field net/minecraft/world/gen/structure/JigsawStructure useExpansionHack Z
+accessible field net/minecraft/world/gen/structure/JigsawStructure projectStartToHeightmap Ljava/util/Optional;
+accessible field net/minecraft/world/gen/structure/JigsawStructure maxDistanceFromCenter I
+
+# step 4
+accessible class net/minecraft/structure/pool/StructurePoolBasedGenerator$ShapedPoolStructurePiece
+accessible class net/minecraft/structure/pool/StructurePoolBasedGenerator$StructurePoolGenerator
+accessible field net/minecraft/structure/pool/StructurePoolBasedGenerator LOGGER Lorg/slf4j/Logger;
+accessible class net/minecraft/structure/pool/StructurePoolBasedGenerator$ShapedPoolStructurePiece
+accessible method net/minecraft/structure/pool/StructurePoolBasedGenerator generate (Lnet/minecraft/world/gen/noise/NoiseConfig;IZLnet/minecraft/world/gen/chunk/ChunkGenerator;Lnet/minecraft/structure/StructureTemplateManager;Lnet/minecraft/world/HeightLimitView;Lnet/minecraft/util/math/random/Random;Lnet/minecraft/registry/Registry;Lnet/minecraft/structure/PoolStructurePiece;Ljava/util/List;Lnet/minecraft/util/shape/VoxelShape;Lnet/minecraft/structure/pool/alias/StructurePoolAliasLookup;)V
+
+# step 5
+accessible field net/minecraft/structure/pool/SinglePoolElement location Lcom/mojang/datafixers/util/Either;
+accessible field net/minecraft/structure/pool/ListPoolElement elements Ljava/util/List;
+accessible field net/minecraft/structure/pool/FeaturePoolElement feature Lnet/minecraft/registry/entry/RegistryEntry;
+
+#step 6
+accessible field net/minecraft/structure/pool/SinglePoolElement processors Lnet/minecraft/registry/entry/RegistryEntry;
+
+#step 7
+accessible method net/minecraft/world/gen/structure/JigsawStructure validate (Lnet/minecraft/world/gen/structure/JigsawStructure;)Lcom/mojang/serialization/DataResult;
+
+#step 8
+accessible class net/minecraft/world/chunk/ChunkStatus$SimpleGenerationTask
+accessible class net/minecraft/world/chunk/ChunkStatus$GenerationTask
+accessible class net/minecraft/world/chunk/ChunkStatus$LoadTask
+accessible method net/minecraft/server/world/ServerChunkManager getChunkFuture (IILnet/minecraft/world/chunk/ChunkStatus;Z)Ljava/util/concurrent/CompletableFuture;
+accessible field net/minecraft/server/world/ServerChunkManager mainThreadExecutor Lnet/minecraft/server/world/ServerChunkManager$MainThreadExecutor;
+accessible field net/minecraft/server/world/ThreadedAnvilChunkStorage mainThreadExecutor Lnet/minecraft/util/thread/ThreadExecutor;
+accessible method net/minecraft/server/world/ThreadedAnvilChunkStorage getCurrentChunkHolder (J)Lnet/minecraft/server/world/ChunkHolder;
+accessible method net/minecraft/server/world/ChunkHolder combineSavingFuture (Ljava/lang/String;Ljava/util/concurrent/CompletableFuture;)V
+accessible method net/minecraft/server/world/ThreadedAnvilChunkStorage getRequiredStatusForGeneration (Lnet/minecraft/world/chunk/ChunkStatus;I)Lnet/minecraft/world/chunk/ChunkStatus;
+accessible field net/minecraft/server/world/ThreadedAnvilChunkStorage worldGenExecutor Lnet/minecraft/util/thread/MessageListener;
+accessible method net/minecraft/server/world/ThreadedAnvilChunkStorage releaseLightTicket (Lnet/minecraft/util/math/ChunkPos;)V
+accessible field net/minecraft/server/world/ThreadedAnvilChunkStorage worldGenerationProgressListener Lnet/minecraft/server/WorldGenerationProgressListener;
+accessible field net/minecraft/server/world/ThreadedAnvilChunkStorage chunkGenerator Lnet/minecraft/world/gen/chunk/ChunkGenerator;
+
+accessible method net/minecraft/world/gen/chunk/ChunkGenerator getStructureReferences (Lnet/minecraft/world/gen/StructureAccessor;Lnet/minecraft/world/chunk/Chunk;Lnet/minecraft/util/math/ChunkSectionPos;Lnet/minecraft/world/gen/structure/Structure;)I
+
+#step 9
+accessible method net/minecraft/world/gen/chunk/ChunkGenerator trySetStructureStart (Lnet/minecraft/structure/StructureSet$WeightedEntry;Lnet/minecraft/world/gen/StructureAccessor;Lnet/minecraft/registry/DynamicRegistryManager;Lnet/minecraft/world/gen/noise/NoiseConfig;Lnet/minecraft/structure/StructureTemplateManager;JLnet/minecraft/world/chunk/Chunk;Lnet/minecraft/util/math/ChunkPos;Lnet/minecraft/util/math/ChunkSectionPos;)Z
+
+accessible method net/minecraft/world/gen/chunk/placement/StructurePlacement getSalt ()I
+accessible method net/minecraft/world/gen/chunk/ChunkGenerator locateConcentricRingsStructure (Ljava/util/Set;Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/world/gen/StructureAccessor;Lnet/minecraft/util/math/BlockPos;ZLnet/minecraft/world/gen/chunk/placement/ConcentricRingsStructurePlacement;)Lcom/mojang/datafixers/util/Pair;
+accessible method net/minecraft/world/gen/chunk/ChunkGenerator checkNotReferenced (Lnet/minecraft/world/gen/StructureAccessor;Lnet/minecraft/structure/StructureStart;)Z
+
+#step 10
+accessible method net/minecraft/structure/StructureTemplate getEntity (Lnet/minecraft/world/ServerWorldAccess;Lnet/minecraft/nbt/NbtCompound;)Ljava/util/Optional;
+accessible method net/minecraft/structure/pool/SinglePoolElement getStructure (Lnet/minecraft/structure/StructureTemplateManager;)Lnet/minecraft/structure/StructureTemplate

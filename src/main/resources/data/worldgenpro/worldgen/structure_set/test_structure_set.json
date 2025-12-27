@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 3456421,
+    "separation": 9,
+    "spacing": 40
+  },
+  "structures": [
+    {
+      "structure": "worldgenpro:test_structure_set",
+      "weight": 1
+    }
+  ]
+}

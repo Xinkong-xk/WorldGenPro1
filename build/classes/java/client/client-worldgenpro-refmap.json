@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "io/xk/worldgenpro/mixin/client/ExampleClientMixin": {
+      "run": "Lnet/minecraft/class_310;method_1514()V"
+    },
+    "io/xk/worldgenpro/mixin/client/structure/StructureBlockRenderMixin": {
+      "getRenderDistance": "Lnet/minecraft/class_838;method_33893()I"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "io/xk/worldgenpro/mixin/client/ExampleClientMixin": {
+        "run": "Lnet/minecraft/class_310;method_1514()V"
+      },
+      "io/xk/worldgenpro/mixin/client/structure/StructureBlockRenderMixin": {
+        "getRenderDistance": "Lnet/minecraft/class_838;method_33893()I"
+      }
+    }
+  }
+}

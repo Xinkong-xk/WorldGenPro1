@@ -1,0 +1,20 @@
+{
+  "mixin_type": "template_pool",
+  "mixin_target": "minecraft:village/plains/houses",
+  "elements": [
+    {
+      "op": "add",
+      "value": {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "minecraft:village/taiga/houses/taiga_small_house_1",
+          "processors": {
+            "processors": []
+          },
+          "projection": "rigid"
+        },
+        "weight": 20
+      }
+    }
+  ]
+}

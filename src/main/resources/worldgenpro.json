@@ -1,0 +1,25 @@
+{
+	"required": true,
+	"package": "io.xk.worldgenpro.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "vanilla.enhance.structure.JigsawStructureMixin",
+      "vanilla.enhance.structure.ShapedPoolStructurePieceAccessor",
+      "vanilla.enhance.template_pool.StructurePoolMixin",
+      "structure.PlaceCommandUnlimit",
+      "structure.StructureBlockUnlimit",
+      "structure.packet.ClientUpdateStructureBlockUnlimit",
+      "vanilla.enhance.chunk.ChunkStatusMixin",
+      "vanilla.enhance.chunk.ChunkGeneratorMixin",
+      "vanilla.enhance.chunk.ChunkStatusAccessor",
+      "vanilla.enhance.structure_set.StructureSetMixin",
+      "vanilla.enhance.command.LocateCommandMixin",
+      "vanilla.enhance.jigsaw.JigsawBlockEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,50 @@
+/tp @s 2432 ~ -1420
+/tp @s -960 ~ 148
+/tp @s -1472 ~100 1252
+/tp @s -3168 ~ 1984
+/tp @s -2899 65 2057
+/tp @s -3168 ~ 1984
+/tp @s -2124 ~ 2336
+/locate structure worldgenpro:base
+/tp @s -1216 ~ 1904
+/locate structure worldgenpro:base
+/tp @s -1216 ~ 1904
+/locate structure worldgenpro:base
+/locate structure worldgenpro:base_1
+/locate structure worldgenpro:base_2
+/locate structure worldgenpro:facing
+/locate structure worldgenpro:test_structure_set
+/tp @s -1504 ~ 2064
+/tp @s -1952 ~ 2352
+/tp @s -504 ~ 2256
+/tp @s -1824 ~ -1012
+/tp @s -176 ~ 668
+/locate structure minecraft:village_plains
+/tp @s 272 ~200 240
+/locate structure worldgenpro:base
+/tp @s 1120 ~ 288
+/locate structure worldgenpro:base_1
+/locate structure worldgenpro:base_2
+/locate structure worldgenpro:test_structure_set
+/tp @s 240 ~ 32
+/locate structure worldgenpro:facing
+/tp @s -192 ~ -736
+/locate structure minecraft:village_plains
+/tp @s -528 ~ -768
+/place template worldgenpro:base
+/place template worldgenpro:base_1
+/place template worldgenpro:base_2
+/place template worldgenpro:facing
+/place structure minecraft:village_plains
+/difficulty peaceful
+/give @a minecraft:jigsaw
+/give @a minecraft:structure_block
+/place template worldgenpro:base
+/place template minecraft:village/plains/houses/plains_small_house_1
+/place structure minecraft:village_plains
+/place template worldgenpro:base_2
+/place structure minecraft:village_plains
+/place template minecraft:village/plains/streets/crossroad_01
+/place structure minecraft:village_plains
+/place template worldgenpro:base_2
+/place structure minecraft:village_plains

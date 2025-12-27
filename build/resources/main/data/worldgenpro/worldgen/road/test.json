@@ -1,0 +1,56 @@
+{
+    "from": {
+      "structure_set": "villages"
+    },
+    "to": {
+      "structure_set": "worldgenpro:base",
+      "road_count": 1
+    },
+
+    "connection": {
+      "initial_locating_count": 1
+    },
+
+    "cross": {
+      "builtin:default":{
+        "road": {
+          "road_width": 1,
+          "road_type": "worldgenpro:test_road"
+        },
+
+        "points": {
+          "0": {
+            "pool": "minecraft:village/plains/houses",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "1": {
+            "pool": "minecraft:village/plains/houses"
+          },
+          "0.5": {
+            "pool": "minecraft:village/plains/houses"
+          }
+        },
+        "decorations": [
+          {
+            "pool": "worldgenpro:decor/decor",
+            "size": 2,
+            "spacing": 4,
+            "probability": 0.5,
+            "offset": {
+              "x": -1,
+              "y": 0,
+              "z": -1
+            }
+          }
+        ]
+      }
+    },
+
+    "avoid_biomes": [
+      "minecraft:desert"
+    ]
+}

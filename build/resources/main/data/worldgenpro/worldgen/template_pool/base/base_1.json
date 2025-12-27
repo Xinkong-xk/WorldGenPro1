@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "worldgenpro:base_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1,
+      "max_count": 3
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "empty",
+    "attributes": {
+      "weight": 0.7,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/empty.nbt",
+      "connections": []
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "rs_h",
+    "attributes": {
+      "weight": 3.0,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_straight_h.nbt",
+      "connections": ["LEFT", "RIGHT"]
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "rs_v",
+    "attributes": {
+      "weight": 3.0,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_straight_v.nbt",
+      "connections": ["UP", "DOWN"]
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "rc_ne",
+    "attributes": {
+      "weight": 0.5,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_curve_ne.nbt",
+      "connections": ["UP", "RIGHT"]
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "rc_nw",
+    "attributes": {
+      "weight": 0.5,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_curve_nw.nbt",
+      "connections": ["UP", "LEFT"]
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "rc_se",
+    "attributes": {
+      "weight": 0.5,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_curve_se.nbt",
+      "connections": ["RIGHT", "DOWN"]
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "rc_sw",
+    "attributes": {
+      "weight": 0.5,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_curve_sw.nbt",
+      "connections": ["DOWN", "LEFT"]
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "cross",
+    "attributes": {
+      "weight": 0.5,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_cross.nbt",
+      "connections": ["UP", "RIGHT", "DOWN", "LEFT"]
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "t_n",
+    "attributes": {
+      "weight": 1.0,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_t_n.nbt",
+      "connections": ["RIGHT", "DOWN", "LEFT"]
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "t_s",
+    "attributes": {
+      "weight": 1.0,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_t_s.nbt",
+      "connections": ["UP", "RIGHT", "LEFT"]
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "t_e",
+    "attributes": {
+      "weight": 1.0,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_t_e.nbt",
+      "connections": ["UP", "DOWN", "LEFT"]
+    }
+  },
+  {
+    "type": "builtin.structure.wfc.test.city.middle",
+    "name": "t_w",
+    "attributes": {
+      "weight": 1.0,
+      "nbt_file": "worldgenpro:develop/structures/test/city/middle/road_t_w.nbt",
+      "connections": ["UP", "RIGHT", "DOWN"]
+    }
+  }
+]

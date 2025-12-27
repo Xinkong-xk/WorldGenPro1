@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 346765,
+    "separation": 12,
+    "spacing": 45
+  },
+  "geo": {
+    "geo_semantic": "boundary_out(<minecraft:river>)"
+  },
+  "structures": [
+    {
+      "structure": "worldgenpro:base",
+      "weight": 1
+    }
+  ]
+}

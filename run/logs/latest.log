@@ -1,0 +1,206 @@
+[23:12:11] [main/WARN] (FabricLoader/Knot) Class path entries reference missing files: D:\Java_Srouce\WORLD_GEN_PRO_step_1\step_2\worldgenpro-template-1.20.4-fix-test\build\classes\kotlin\client, D:\Java_Srouce\WORLD_GEN_PRO_step_1\step_2\worldgenpro-template-1.20.4-fix-test\build\classes\kotlin\main - the game may not load properly!
+[23:12:11] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.4 with Fabric Loader 0.17.3
+[23:12:12] [main/INFO] (FabricLoader) Loading 60 mods:
+	- fabric-api 0.97.3+1.20.4
+	- fabric-api-base 0.4.37+78d798af4f
+	- fabric-api-lookup-api-v1 1.6.50+82b1bb3e4f
+	- fabric-biome-api-v1 13.0.17+78d798af4f
+	- fabric-block-api-v1 1.0.17+3e2216cb4f
+	- fabric-block-view-api-v2 1.0.5+78d798af4f
+	- fabric-blockrenderlayer-v1 1.1.47+78d798af4f
+	- fabric-client-tags-api-v1 1.1.8+78d798af4f
+	- fabric-command-api-v1 1.2.42+f71b366f4f
+	- fabric-command-api-v2 2.2.21+78d798af4f
+	- fabric-commands-v0 0.2.59+df3654b34f
+	- fabric-containers-v0 0.1.88+df3654b34f
+	- fabric-content-registries-v0 5.0.16+78d798af4f
+	- fabric-convention-tags-v1 1.5.11+78d798af4f
+	- fabric-crash-report-info-v1 0.2.24+78d798af4f
+	- fabric-data-attachment-api-v1 1.1.5+b90db5744f
+	- fabric-data-generation-api-v1 13.2.6+5c0133444f
+	- fabric-dimensions-v1 2.1.63+6605d1a84f
+	- fabric-entity-events-v1 1.6.2+09fc25014f
+	- fabric-events-interaction-v0 0.7.2+389931eb4f
+	- fabric-events-lifecycle-v0 0.2.76+df3654b34f
+	- fabric-game-rule-api-v1 1.0.47+78d798af4f
+	- fabric-gametest-api-v1 1.3.6+85d85a934f
+	- fabric-item-api-v1 2.3.1+cadc140c4f
+	- fabric-item-group-api-v1 4.0.27+ee30b13a4f
+	- fabric-key-binding-api-v1 1.0.42+78d798af4f
+	- fabric-keybindings-v0 0.2.40+df3654b34f
+	- fabric-lifecycle-events-v1 2.3.1+a67ffb5d4f
+	- fabric-loot-api-v2 2.1.10+78d798af4f
+	- fabric-message-api-v1 6.0.6+78d798af4f
+	- fabric-mining-level-api-v1 2.1.66+78d798af4f
+	- fabric-model-loading-api-v1 1.0.9+78d798af4f
+	- fabric-models-v0 0.4.8+9386d8a74f
+	- fabric-networking-api-v1 3.1.9+6abb6a4b4f
+	- fabric-object-builder-api-v1 13.1.0+dba1195c4f
+	- fabric-particles-v1 1.1.8+78d798af4f
+	- fabric-recipe-api-v1 2.0.22+78d798af4f
+	- fabric-registry-sync-v0 4.0.21+ee30b13a4f
+	- fabric-renderer-api-v1 3.2.5+78d798af4f
+	- fabric-renderer-indigo 1.5.6+d331d3144f
+	- fabric-renderer-registries-v1 3.2.54+df3654b34f
+	- fabric-rendering-data-attachment-v1 0.3.43+73761d2e4f
+	- fabric-rendering-fluids-v1 3.1.2+e761c6694f
+	- fabric-rendering-v0 1.1.57+df3654b34f
+	- fabric-rendering-v1 3.2.1+6fd945a04f
+	- fabric-resource-conditions-api-v1 2.3.15+78d798af4f
+	- fabric-resource-loader-v0 0.11.21+ee30b13a4f
+	- fabric-screen-api-v1 2.0.18+78d798af4f
+	- fabric-screen-handler-api-v1 1.3.57+78d798af4f
+	- fabric-sound-api-v1 1.0.18+78d798af4f
+	- fabric-transfer-api-v1 4.0.12+90f2d7b14f
+	- fabric-transitive-access-wideners-v1 5.0.15+78d798af4f
+	- fabricloader 0.17.3
+	- java 21
+	- midnightlib 1.5.3
+	- minecraft 1.20.4
+	- mixinextras 0.5.0
+	- worldedit 7.3.0+6678-55745ad
+	- worldeditcui 1.20.3+01
+	- worldgenpro 1.0.0
+[23:12:17] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/LENOVO/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[23:12:17] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[23:12:17] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[23:12:18] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[23:12:24] [Datafixer Bootstrap/INFO] (Minecraft) 198 Datafixer optimizations took 168 milliseconds
+[23:12:26] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[23:12:27] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:12:27] [Render thread/INFO] (Minecraft) Setting user: Player952
+[23:12:27] [Render thread/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
+[23:12:28] [Render thread/INFO] (worldgenpro) WorldGenPro Version 0.0.1 alpha
+[23:12:28] [Render thread/INFO] (worldgenpro) [RoadGen] Initializing Settlement Roads... (By settlement-roads)
+[23:12:28] [Render thread/WARN] (fabric-data-attachment-api-v1) Encountered duplicate type registration for id worldgenpro:region_structure_map
+[23:12:28] [Render thread/INFO] (worldgenpro) [RoadGen] Registering WorldData attachment
+[23:12:28] [Render thread/INFO] (worldgenpro) [RoadGen] Registering road_feature
+[23:12:29] [Render thread/INFO] (PlatformManager) Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7e2ee872]
+[23:12:29] [Render thread/INFO] (FabricWorldEdit) WorldEdit for Fabric (version 7.3.0+6678-55745ad) is loaded
+[23:12:29] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[23:12:29] [Download-2/ERROR] (Minecraft) Failed to fetch user properties
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150) ~[authlib-6.0.52.jar:?]
+	at net.minecraft.client.MinecraftClient.method_55608(MinecraftClient.java:467) ~[minecraft-clientOnly-a58c0c098e-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121) ~[authlib-6.0.52.jar:?]
+	... 5 more
+[23:12:30] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[23:12:31] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, midnightlib, worldedit, worldeditcui, worldgenpro
+[23:12:31] [Worker-Main-12/INFO] (Minecraft) Found unifont_all_no_pua-15.1.04.hex, loading
+[23:12:32] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[23:12:32] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[23:12:32] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.generic.wind_burst
+[23:12:33] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 耳机 (Realtek(R) Audio)
+[23:12:33] [Render thread/INFO] (Minecraft) Sound engine started
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[23:12:33] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23:12:33] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[23:12:34] [IO-Worker-1/INFO] (Minecraft) Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
+[23:12:34] [IO-Worker-1/ERROR] (Minecraft) Couldn't connect to realms
+net.minecraft.client.realms.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC'
+	at net.minecraft.client.realms.RealmsClient.execute(RealmsClient.java:447) ~[minecraft-clientOnly-a58c0c098e-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
+	at net.minecraft.client.realms.RealmsClient.clientCompatible(RealmsClient.java:232) ~[minecraft-clientOnly-a58c0c098e-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
+	at net.minecraft.client.realms.RealmsAvailability.method_52627(RealmsAvailability.java:45) ~[minecraft-clientOnly-a58c0c098e-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:12:42] [Render thread/INFO] (PlatformCommandManager) Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[23:12:43] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[23:12:43] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[23:12:43] [Render thread/INFO] (BiomeModificationImpl) Applied 64 biome modifications to 64 of 64 new biomes in 6.836 ms
+[23:12:43] [Server thread/INFO] (worldgenpro) Loading ConfigFile
+[23:12:43] [Server thread/INFO] (DataMixinLoader) Loading Data Mixin Files...
+[23:12:43] [Server thread/INFO] (DataMixinLoader) Loaded Data Mixin : worldgenpro:worldgen/data_mixin/test_a.json
+[23:12:43] [Server thread/INFO] (DataMixinLoader) Finished loading 1 Data Mixin files
+[23:12:43] [Server thread/INFO] (DataMixin) Building Data Mixins...
+[23:12:43] [Server thread/INFO] (worldgenpro) [Reflect] StructurePoolMixinReflect.class init: 2 methods cached
+[23:12:43] [Server thread/INFO] (DataMixin) Successfully applied mixin(type : template_pool) DataMixinElement{op=ADD, priority=1000, attributes={"op":"add","value":{"element":{"element_type":"minecraft:legacy_single_pool_element","location":"minecraft:village/taiga/houses/taiga_small_house_1","processors":{"processors":[]},"projection":"rigid"},"weight":20}}} to minecraft:village/plains/houses
+[23:12:43] [Server thread/INFO] (DataMixin) Finished building Data Mixins. Total elements: 1
+[23:12:43] [Server thread/INFO] (worldgenpro) [Nbt] Loading Nbt Files...
+[23:12:43] [Server thread/INFO] (worldgenpro) [Nbt] Load 24 Nbt Files
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Loading Common Register File...
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Load 2 Common Register Files
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Loading Event Register Files...
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Load 0 Event Register Files
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Load Plugin (Java,JavaScript,Lua) Files
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Loading <Java> Plugin...
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Load 0 Java Plugins
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Loading <JavaScript> Plugin...
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Load 0 JavaScript Plugins
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Loading <Lua> Plugin...
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Load 0 Lua Plugins
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Execute Plugin Files...
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Execute Java Plugins:
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Execute 0 Java Plugins Successfully!
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Execute JavaScript Plugins:
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Execute 0 JavaScript Plugins Successfully!
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Execute Lua Plugins:
+[23:12:43] [Server thread/INFO] (worldgenpro) [Configure] Execute 0 Lua Plugins Successfully!
+[23:12:43] [Server thread/INFO] (worldgenpro) [RoadGen:Configure] Loading...
+[23:12:43] [Server thread/INFO] (worldgenpro) [RoadGen:Resource] Loading road connection configs...
+[23:12:43] [Server thread/INFO] (worldgenpro) [RoadGen:Configure.Entry] load and build config: Entry{from=Point{structure_set=minecraft:villages, offset=Offset[x=0, y=0, z=0]}, to=CountablePoint{structure_set=worldgenpro:base, offset=Offset[x=0, y=0, z=0], roadCount=1}, disallowBiomes=[minecraft:desert], fromStructureObject=StructureSet[structures=[WeightedEntry[structure=Reference{ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]=net.minecraft.world.gen.structure.JigsawStructure@14551b6f}, weight=1], WeightedEntry[structure=Reference{ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]=net.minecraft.world.gen.structure.JigsawStructure@65d671f0}, weight=1], WeightedEntry[structure=Reference{ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]=net.minecraft.world.gen.structure.JigsawStructure@27f3e834}, weight=1], WeightedEntry[structure=Reference{ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy]=net.minecraft.world.gen.structure.JigsawStructure@39ddefaf}, weight=1], WeightedEntry[structure=Reference{ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga]=net.minecraft.world.gen.structure.JigsawStructure@2efceab6}, weight=1]], placement=net.minecraft.world.gen.chunk.placement.RandomSpreadStructurePlacement@6af87c04], toStructureObject=StructureSet[structures=[WeightedEntry[structure=Reference{ResourceKey[minecraft:worldgen/structure / worldgenpro:base]=net.minecraft.world.gen.structure.JigsawStructure@694cf317}, weight=1]], placement=net.minecraft.world.gen.chunk.placement.RandomSpreadStructurePlacement@2bb0915f], mainCrossRule=CrossRule{road=RoadSettings{roadWidth=1, roadType=worldgenpro:test_road}, points={0=CrossPoints{pool='minecraft:village/plains/houses', offset=Offset[x=0, y=0, z=0], poolObject=net.minecraft.structure.pool.StructurePool@40a5278e}, 1=CrossPoints{pool='minecraft:village/plains/houses', offset=Offset[x=0, y=0, z=0], poolObject=net.minecraft.structure.pool.StructurePool@40a5278e}, 0.5=CrossPoints{pool='minecraft:village/plains/houses', offset=Offset[x=0, y=0, z=0], poolObject=net.minecraft.structure.pool.StructurePool@40a5278e}}, decorations=[DecorationEntry{pool='worldgenpro:decor/decor', spacing=IntRange{min=4, max=4}, probability=0.5, size=2, poolObject=net.minecraft.structure.pool.StructurePool@2ffab10d, offset=Offset[x=-1, y=0, z=-1]}]}, otherCrossRules={}} 
+[23:12:43] [Server thread/INFO] (worldgenpro) [RoadGen:Resource] Loaded road config: worldgenpro:worldgen/road/test.json
+[23:12:43] [Server thread/INFO] (worldgenpro) [RoadGen:Resource.successful] Finished loading 1 road config files
+[23:12:43] [Server thread/INFO] (Main Listener) [Server] : Server Starting...
+[23:12:43] [Server thread/INFO] (worldgenpro) [CheckConfig] Load Configs
+[23:12:43] [Server thread/INFO] (worldgenpro) [ClassInitializer] Initialized: io.xk.worldgenpro.gx.expression.compilers.JavaExpressionCompiler
+[23:12:43] [Server thread/INFO] (worldgenpro) [ClassInitializer] Initialized: io.xk.worldgenpro.gx.expression.compilers.JSExpressionCompiler
+[23:12:44] [Server thread/INFO] (worldgenpro) [ClassInitializer] Initialized: io.xk.worldgenpro.gx.expression.compilers.LuaExpressionCompiler
+[23:12:44] [Server thread/INFO] (worldgenpro) [GeoSemanticStructure] Loading...
+[23:12:44] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.4
+[23:12:44] [Server thread/INFO] (Minecraft) Generating keypair
+[23:12:44] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[23:12:46] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[23:12:46] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[23:12:46] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[23:12:46] [Render thread/INFO] (Minecraft) 准备生成区域中：4%
+[23:12:46] [Render thread/INFO] (Minecraft) 准备生成区域中：30%
+[23:12:47] [Render thread/INFO] (Minecraft) Time elapsed: 2417 ms
+[23:12:47] [Server thread/INFO] (Main Listener) [Server] : Server Started...
+[23:12:48] [Server thread/INFO] (Minecraft) Changing view distance to 11, from 10
+[23:12:48] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[23:12:49] [Server thread/INFO] (Minecraft) Player952[local:E:09992d5e] logged in with entity id 79 at (206.32288684367398, -60.0, -5.3566639099422115)
+[23:12:49] [Server thread/INFO] (Minecraft) Player952加入了游戏
+[23:12:49] [Render thread/INFO] (Minecraft) Loaded 14 advancements
+[23:12:50] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[23:12:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[23:12:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[23:12:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[23:13:10] [Server thread/INFO] (Minecraft) [Player952: 已在-3, -54, -11处生成结构“minecraft:village_plains”]
+[23:13:10] [Render thread/INFO] (Minecraft) [System] [CHAT] 已在-3, -54, -11处生成结构“minecraft:village_plains”
+[23:13:32] [Server thread/INFO] (Minecraft) [Player952: 已在7, -60, -50处加载模板“worldgenpro:base_2”]
+[23:13:32] [Render thread/INFO] (Minecraft) [System] [CHAT] 已在7, -60, -50处加载模板“worldgenpro:base_2”
+[23:13:33] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[23:13:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[23:13:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[23:13:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[23:13:52] [Server thread/INFO] (Minecraft) [Player952: 已在-133, -60, 62处生成结构“minecraft:village_plains”]
+[23:13:52] [Render thread/INFO] (Minecraft) [System] [CHAT] 已在-133, -60, 62处生成结构“minecraft:village_plains”
+[23:14:03] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[23:14:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[23:14:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[23:14:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[23:15:24] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[23:15:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[23:15:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[23:15:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether

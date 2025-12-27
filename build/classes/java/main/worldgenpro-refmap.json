@@ -1,0 +1,82 @@
+{
+  "mappings": {
+    "io/xk/worldgenpro/mixin/ExampleMixin": {
+      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    },
+    "io/xk/worldgenpro/mixin/NoiseConfigMixin": {
+      "getNoiseRouter": "Lnet/minecraft/class_7138;method_42370()Lnet/minecraft/class_6953;"
+    },
+    "io/xk/worldgenpro/mixin/structure/JigsawStructureUnlimit": {
+      "<init>(Lnet/minecraft/world/gen/structure/Structure$Config;Lnet/minecraft/registry/entry/RegistryEntry;ILnet/minecraft/world/gen/heightprovider/HeightProvider;Z)V": "Lnet/minecraft/class_5434;<init>(Lnet/minecraft/class_3195$class_7302;Lnet/minecraft/class_6880;ILnet/minecraft/class_6122;Z)V",
+      "<init>(Lnet/minecraft/world/gen/structure/Structure$Config;Lnet/minecraft/registry/entry/RegistryEntry;ILnet/minecraft/world/gen/heightprovider/HeightProvider;ZLnet/minecraft/world/Heightmap$Type;)V": "Lnet/minecraft/class_5434;<init>(Lnet/minecraft/class_3195$class_7302;Lnet/minecraft/class_6880;ILnet/minecraft/class_6122;ZLnet/minecraft/class_2902$class_2903;)V",
+      "validate": "Lnet/minecraft/class_5434;method_42708(Lnet/minecraft/class_5434;)Lcom/mojang/serialization/DataResult;"
+    },
+    "io/xk/worldgenpro/mixin/structure/PlaceCommandUnlimit": {
+      "register": "Lnet/minecraft/class_6852;method_39986(Lcom/mojang/brigadier/CommandDispatcher;)V"
+    },
+    "io/xk/worldgenpro/mixin/structure/StructureBlockUnlimit": {
+      "detectStructureSize": "Lnet/minecraft/class_2633;method_11383()Z",
+      "readNbt": "Lnet/minecraft/class_2633;method_11014(Lnet/minecraft/class_2487;)V"
+    },
+    "io/xk/worldgenpro/mixin/structure/packet/ClientUpdateStructureBlockUnlimit": {
+      "<init>(Lnet/minecraft/network/PacketByteBuf;)V": "Lnet/minecraft/class_2875;<init>(Lnet/minecraft/class_2540;)V",
+      "write": "Lnet/minecraft/class_2875;method_11052(Lnet/minecraft/class_2540;)V"
+    },
+    "io/xk/worldgenpro/mixin/vanilla/enhance/chunk/ChunkStatusAccessor": {
+      "<init>": "<init>"
+    },
+    "io/xk/worldgenpro/mixin/vanilla/enhance/chunk/ChunkStatusMixin": {
+      "register(Ljava/lang/String;Lnet/minecraft/world/chunk/ChunkStatus;IZLjava/util/EnumSet;Lnet/minecraft/world/chunk/ChunkStatus$ChunkType;Lnet/minecraft/world/chunk/ChunkStatus$GenerationTask;Lnet/minecraft/world/chunk/ChunkStatus$LoadTask;)Lnet/minecraft/world/chunk/ChunkStatus;": "Lnet/minecraft/class_2806;method_20611(Ljava/lang/String;Lnet/minecraft/class_2806;IZLjava/util/EnumSet;Lnet/minecraft/class_2806$class_2808;Lnet/minecraft/class_2806$class_2807;Lnet/minecraft/class_2806$class_4305;)Lnet/minecraft/class_2806;"
+    },
+    "io/xk/worldgenpro/mixin/vanilla/enhance/structure/JigsawStructureMixin": {
+      "<init>(Lnet/minecraft/world/gen/structure/Structure$Config;Lnet/minecraft/registry/entry/RegistryEntry;Ljava/util/Optional;ILnet/minecraft/world/gen/heightprovider/HeightProvider;ZLjava/util/Optional;ILjava/util/List;)V": "Lnet/minecraft/class_5434;<init>(Lnet/minecraft/class_3195$class_7302;Lnet/minecraft/class_6880;Ljava/util/Optional;ILnet/minecraft/class_6122;ZLjava/util/Optional;ILjava/util/List;)V"
+    },
+    "io/xk/worldgenpro/mixin/vanilla/enhance/structure/ShapedPoolStructurePieceAccessor": {
+      "<init>": "<init>"
+    },
+    "io/xk/worldgenpro/mixin/vanilla/enhance/structure_set/StructureSetMixin": {
+      "<init>(Lnet/minecraft/registry/entry/RegistryEntry;Lnet/minecraft/world/gen/chunk/placement/StructurePlacement;)V": "Lnet/minecraft/class_7059;<init>(Lnet/minecraft/class_6880;Lnet/minecraft/class_6874;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "io/xk/worldgenpro/mixin/ExampleMixin": {
+        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      },
+      "io/xk/worldgenpro/mixin/NoiseConfigMixin": {
+        "getNoiseRouter": "Lnet/minecraft/class_7138;method_42370()Lnet/minecraft/class_6953;"
+      },
+      "io/xk/worldgenpro/mixin/structure/JigsawStructureUnlimit": {
+        "<init>(Lnet/minecraft/world/gen/structure/Structure$Config;Lnet/minecraft/registry/entry/RegistryEntry;ILnet/minecraft/world/gen/heightprovider/HeightProvider;Z)V": "Lnet/minecraft/class_5434;<init>(Lnet/minecraft/class_3195$class_7302;Lnet/minecraft/class_6880;ILnet/minecraft/class_6122;Z)V",
+        "<init>(Lnet/minecraft/world/gen/structure/Structure$Config;Lnet/minecraft/registry/entry/RegistryEntry;ILnet/minecraft/world/gen/heightprovider/HeightProvider;ZLnet/minecraft/world/Heightmap$Type;)V": "Lnet/minecraft/class_5434;<init>(Lnet/minecraft/class_3195$class_7302;Lnet/minecraft/class_6880;ILnet/minecraft/class_6122;ZLnet/minecraft/class_2902$class_2903;)V",
+        "validate": "Lnet/minecraft/class_5434;method_42708(Lnet/minecraft/class_5434;)Lcom/mojang/serialization/DataResult;"
+      },
+      "io/xk/worldgenpro/mixin/structure/PlaceCommandUnlimit": {
+        "register": "Lnet/minecraft/class_6852;method_39986(Lcom/mojang/brigadier/CommandDispatcher;)V"
+      },
+      "io/xk/worldgenpro/mixin/structure/StructureBlockUnlimit": {
+        "detectStructureSize": "Lnet/minecraft/class_2633;method_11383()Z",
+        "readNbt": "Lnet/minecraft/class_2633;method_11014(Lnet/minecraft/class_2487;)V"
+      },
+      "io/xk/worldgenpro/mixin/structure/packet/ClientUpdateStructureBlockUnlimit": {
+        "<init>(Lnet/minecraft/network/PacketByteBuf;)V": "Lnet/minecraft/class_2875;<init>(Lnet/minecraft/class_2540;)V",
+        "write": "Lnet/minecraft/class_2875;method_11052(Lnet/minecraft/class_2540;)V"
+      },
+      "io/xk/worldgenpro/mixin/vanilla/enhance/chunk/ChunkStatusAccessor": {
+        "<init>": "<init>"
+      },
+      "io/xk/worldgenpro/mixin/vanilla/enhance/chunk/ChunkStatusMixin": {
+        "register(Ljava/lang/String;Lnet/minecraft/world/chunk/ChunkStatus;IZLjava/util/EnumSet;Lnet/minecraft/world/chunk/ChunkStatus$ChunkType;Lnet/minecraft/world/chunk/ChunkStatus$GenerationTask;Lnet/minecraft/world/chunk/ChunkStatus$LoadTask;)Lnet/minecraft/world/chunk/ChunkStatus;": "Lnet/minecraft/class_2806;method_20611(Ljava/lang/String;Lnet/minecraft/class_2806;IZLjava/util/EnumSet;Lnet/minecraft/class_2806$class_2808;Lnet/minecraft/class_2806$class_2807;Lnet/minecraft/class_2806$class_4305;)Lnet/minecraft/class_2806;"
+      },
+      "io/xk/worldgenpro/mixin/vanilla/enhance/structure/JigsawStructureMixin": {
+        "<init>(Lnet/minecraft/world/gen/structure/Structure$Config;Lnet/minecraft/registry/entry/RegistryEntry;Ljava/util/Optional;ILnet/minecraft/world/gen/heightprovider/HeightProvider;ZLjava/util/Optional;ILjava/util/List;)V": "Lnet/minecraft/class_5434;<init>(Lnet/minecraft/class_3195$class_7302;Lnet/minecraft/class_6880;Ljava/util/Optional;ILnet/minecraft/class_6122;ZLjava/util/Optional;ILjava/util/List;)V"
+      },
+      "io/xk/worldgenpro/mixin/vanilla/enhance/structure/ShapedPoolStructurePieceAccessor": {
+        "<init>": "<init>"
+      },
+      "io/xk/worldgenpro/mixin/vanilla/enhance/structure_set/StructureSetMixin": {
+        "<init>(Lnet/minecraft/registry/entry/RegistryEntry;Lnet/minecraft/world/gen/chunk/placement/StructurePlacement;)V": "Lnet/minecraft/class_7059;<init>(Lnet/minecraft/class_6880;Lnet/minecraft/class_6874;)V"
+      }
+    }
+  }
+}
